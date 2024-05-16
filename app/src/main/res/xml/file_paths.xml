@@ -1,0 +1,14 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xml 폴더에서 우크릭 New >> XML Resource File -->
+<!-- 파일들에 대한 Content Uri를 만들어 주는 FileProvider -->
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  external-path 로 외부 저장소 루트 하위에 있는 파일들의 Uri를 만들 수 있음  -->
+    <external-path
+        name="my_images"
+        path="Android/data/com.leeshan77.capturecamera/files/Pictures"
+    />
+
+</paths>
